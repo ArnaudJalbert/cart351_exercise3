@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1668724259859,
+    "text": "Hey",
+    "font": "20px Helvetica",
+    "point_color": "#FFFFFF",
+    "stroke_color": "#FFFFFF",
+    "nb_parts": 128,
+    "density": 15,
+    "size": 5,
+    "scale": 25,
+    "x_offset": 500,
+    "y_offset": 100,
+    "connect_tresh": 50,
+    "connect_enabled": true
+  },
+  {
+    "id": 1668725231882,
+    "text": "yooo",
+    "font": "20px Helvetica",
+    "point_color": "#FFFFFF",
+    "stroke_color": "#FFFFFF",
+    "nb_parts": 91,
+    "density": 7,
+    "size": "0",
+    "scale": 25,
+    "x_offset": 500,
+    "y_offset": 100,
+    "connect_tresh": 50,
+    "connect_enabled": true
+  },
+  {
+    "id": 1668726718340,
+    "text": "Frosty",
+    "font": "20px Helvetica",
+    "point_color": "#c60506",
+    "stroke_color": "#FFFFFF",
+    "nb_parts": 130,
+    "density": 15,
+    "size": "0",
+    "scale": "23",
+    "x_offset": 353,
+    "y_offset": -37,
+    "connect_tresh": 45,
+    "connect_enabled": true
+  },
+  {
+    "id": 1668727410312,
+    "text": "vache",
+    "font": "20px Franklin Gothic Medium",
+    "point_color": "#635010",
+    "stroke_color": "#FFFFFF",
+    "nb_parts": 103,
+    "density": 2,
+    "size": "6",
+    "scale": "23",
+    "x_offset": 441,
+    "y_offset": 100,
+    "connect_tresh": 24,
+    "connect_enabled": true
+  }
+]
