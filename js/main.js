@@ -45,7 +45,7 @@ function init_events_listeners(){
     document.getElementById('save_entry').addEventListener('click', function(){
         register_entry();
         load_entries();
-        alert('This entry has been saved! You can load it back in "Load".')
+        alert('This entry has been saved! You can load it back in "Load" after having refreshed your page.')
     })
 
     document.getElementById('load_entry').addEventListener('change', function(text){
@@ -101,7 +101,6 @@ function load_entries(){
 
         for(let i = 0; i< all_entries.length; i++){
             $('#load_entry').append('<option value="' + all_entries[i]['id'] + '"> ' + all_entries[i]['text']+ '</option>');
-            console.log('<option value="' + all_entries[i].id + "> " + all_entries[i].text + "</option>")
         }
     })
 
@@ -111,8 +110,8 @@ function register_entry(){
     
     let entry = JSON.stringify(particles_text.export_key_value());
 
-    $.post('new_entry.php', {post_jsondata:entry},function (data) {
-        // console.log(JSON.parse(data));
+    $.post('new_entry.php', {post_jsondata:entry}).done(function(){
+        console.log("Registered!");
     });
 }
 
